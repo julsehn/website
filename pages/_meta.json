@@ -1,0 +1,25 @@
+{
+  "index": {
+    "title": "Home",
+    "display": "hidden",
+    "theme": {
+      "toc": false,
+      "sidebar": false,
+      "breadcrumb": false
+    }
+  },
+  "rules": {
+    "title": "Rules"
+  },
+  "scams": {
+    "title": "Scams"
+  },
+  "faq": {
+    "title": "FAQ"
+  },
+  "discord": {
+    "title": "Discord Link",
+    "href": "https://discord.gg/ntts",
+    "newWindow": true
+  }
+}
