@@ -21,11 +21,11 @@ importers:
         specifier: ^3.12.2
         version: 3.12.2(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       nextra:
-        specifier: ^3.1.1
-        version: 3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+        specifier: ^3.1.2
+        version: 3.1.2(@types/react@17.0.38)(acorn@8.13.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       nextra-theme-docs:
         specifier: ^2.13.1
-        version: 2.13.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
+        version: 2.13.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.2(@types/react@17.0.38)(acorn@8.13.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -383,9 +383,6 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
-  '@types/hast@3.0.1':
-    resolution: {integrity: sha512-hs/iBJx2aydugBQx5ETV3ZgeSS0oIreQrFJ4bjBl0XvM4wAmDjFEALY7p0rTSLt2eL+ibjRAAs9dTPiCLtmbqQ==}
-
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
@@ -434,11 +431,6 @@ packages:
 
   acorn@8.13.0:
     resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-
-  acorn@8.7.0:
-    resolution: {integrity: sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -774,15 +766,6 @@ packages:
 
   dayjs@1.11.10:
     resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
-
-  debug@4.3.3:
-    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
 
   debug@4.3.7:
     resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
@@ -1368,9 +1351,6 @@ packages:
   mlly@1.7.2:
     resolution: {integrity: sha512-tN3dvVHYVz4DhSXinXIk7u9syPYaJvio118uomkovAtWBT+RdbP6Lfh/5Lvo519YMmwBafwlh20IPTXIStscpA==}
 
-  ms@2.1.2:
-    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
-
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
@@ -1430,8 +1410,8 @@ packages:
       react: '>=16.13.1'
       react-dom: '>=16.13.1'
 
-  nextra@3.1.1:
-    resolution: {integrity: sha512-IIhIZGSoLCVA/UTKA0Z+pmN64M4j/Ga9E9S7rrfPT44H+Ki1gALJJOahxhzAGllhvCvVOPm/KTzU66kKWAMrwg==}
+  nextra@3.1.2:
+    resolution: {integrity: sha512-SpnMsAIOgGIlS5AdyWbV8WZf73qWMtxYhoinRZG12Q0O71Lp6F27yW8rrfc0aVxyJkspkkxLQbZNrFZJpgW+Yg==}
     engines: {node: '>=18'}
     peerDependencies:
       next: '>=13'
@@ -1884,9 +1864,6 @@ packages:
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
-  unified@11.0.3:
-    resolution: {integrity: sha512-jlCV402P+YDcFcB2VcN/n8JasOddqIiaxv118wNBoZXEhOn+lYG7BR4Bfg2BwxvlK58dwbuH2w7GX2esAjL6Mg==}
-
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
 
@@ -1998,10 +1975,6 @@ packages:
   yallist@2.1.2:
     resolution: {integrity: sha512-ncTzHV7NvsQZkYe1DW7cbDLm0YpzHmZF5r/iyP3ZnQtMiJ+pjzisCiMNI+Sj+xQF5pXhSHxSB3uDbsBTzY/c2A==}
 
-  yaml@2.3.1:
-    resolution: {integrity: sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==}
-    engines: {node: '>= 14'}
-
   yaml@2.6.0:
     resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
     engines: {node: '>= 14'}
@@ -2019,9 +1992,6 @@ packages:
 
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
-
-  zwitch@2.0.2:
-    resolution: {integrity: sha512-JZxotl7SxAJH0j7dN4pxsTV6ZLXoLdGME+PsjkL/DaBrVryK9kTGq06GfKrwcSOqypP+fdXGoCHE36b99fWVoA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -2137,11 +2107,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  '@mdx-js/mdx@3.1.0(acorn@8.7.0)':
+  '@mdx-js/mdx@3.1.0(acorn@8.13.0)':
     dependencies:
       '@types/estree': 1.0.6
       '@types/estree-jsx': 1.0.0
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/mdx': 2.0.1
       collapse-white-space: 2.1.0
       devlop: 1.1.0
@@ -2151,14 +2121,14 @@ snapshots:
       hast-util-to-jsx-runtime: 2.3.2
       markdown-extensions: 2.0.0
       recma-build-jsx: 1.0.0
-      recma-jsx: 1.0.0(acorn@8.7.0)
+      recma-jsx: 1.0.0(acorn@8.13.0)
       recma-stringify: 1.0.0
       rehype-recma: 1.0.0
       remark-mdx: 3.1.0
       remark-parse: 11.0.0
       remark-rehype: 11.1.1
       source-map: 0.7.4
-      unified: 11.0.3
+      unified: 11.0.5
       unist-util-position-from-estree: 2.0.0
       unist-util-stringify-position: 4.0.0
       unist-util-visit: 5.0.0
@@ -2382,10 +2352,6 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@types/hast@3.0.1':
-    dependencies:
-      '@types/unist': 3.0.0
-
   '@types/hast@3.0.4':
     dependencies:
       '@types/unist': 3.0.0
@@ -2420,20 +2386,18 @@ snapshots:
 
   '@typescript/vfs@1.6.0(typescript@5.6.3)':
     dependencies:
-      debug: 4.3.3
+      debug: 4.3.7
       typescript: 5.6.3
     transitivePeerDependencies:
       - supports-color
 
   '@ungap/structured-clone@1.2.0': {}
 
-  acorn-jsx@5.3.2(acorn@8.7.0):
+  acorn-jsx@5.3.2(acorn@8.13.0):
     dependencies:
-      acorn: 8.7.0
+      acorn: 8.13.0
 
   acorn@8.13.0: {}
-
-  acorn@8.7.0: {}
 
   ansi-styles@3.2.1:
     dependencies:
@@ -2786,10 +2750,6 @@ snapshots:
 
   dayjs@1.11.10: {}
 
-  debug@4.3.3:
-    dependencies:
-      ms: 2.1.2
-
   debug@4.3.7:
     dependencies:
       ms: 2.1.3
@@ -2828,7 +2788,7 @@ snapshots:
   esast-util-from-js@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.0
-      acorn: 8.7.0
+      acorn: 8.13.0
       esast-util-from-estree: 2.0.0
       vfile-message: 4.0.2
 
@@ -2985,20 +2945,20 @@ snapshots:
 
   hast-util-from-dom@5.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       hastscript: 8.0.0
       web-namespaces: 2.0.1
 
   hast-util-from-html-isomorphic@2.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       hast-util-from-dom: 5.0.0
       hast-util-from-html: 2.0.1
       unist-util-remove-position: 5.0.0
 
   hast-util-from-html@2.0.1:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       devlop: 1.1.0
       hast-util-from-parse5: 8.0.1
       parse5: 7.1.2
@@ -3007,7 +2967,7 @@ snapshots:
 
   hast-util-from-parse5@8.0.1:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/unist': 3.0.0
       devlop: 1.1.0
       hastscript: 8.0.0
@@ -3018,15 +2978,15 @@ snapshots:
 
   hast-util-is-element@3.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
 
   hast-util-parse-selector@4.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
 
   hast-util-raw@9.0.1:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/unist': 3.0.0
       '@ungap/structured-clone': 1.2.0
       hast-util-from-parse5: 8.0.1
@@ -3038,13 +2998,13 @@ snapshots:
       unist-util-visit: 5.0.0
       vfile: 6.0.1
       web-namespaces: 2.0.1
-      zwitch: 2.0.2
+      zwitch: 2.0.4
 
   hast-util-to-estree@3.1.0:
     dependencies:
       '@types/estree': 1.0.6
       '@types/estree-jsx': 1.0.0
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       comma-separated-tokens: 2.0.2
       devlop: 1.1.0
       estree-util-attach-comments: 3.0.0
@@ -3057,7 +3017,7 @@ snapshots:
       space-separated-tokens: 2.0.1
       style-to-object: 0.4.4
       unist-util-position: 5.0.0
-      zwitch: 2.0.2
+      zwitch: 2.0.4
     transitivePeerDependencies:
       - supports-color
 
@@ -3078,7 +3038,7 @@ snapshots:
   hast-util-to-jsx-runtime@2.3.2:
     dependencies:
       '@types/estree': 1.0.6
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/unist': 3.0.0
       comma-separated-tokens: 2.0.2
       devlop: 1.1.0
@@ -3097,13 +3057,13 @@ snapshots:
 
   hast-util-to-parse5@8.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       comma-separated-tokens: 2.0.2
       devlop: 1.1.0
       property-information: 6.1.1
       space-separated-tokens: 2.0.1
       web-namespaces: 2.0.1
-      zwitch: 2.0.2
+      zwitch: 2.0.4
 
   hast-util-to-string@3.0.1:
     dependencies:
@@ -3111,18 +3071,18 @@ snapshots:
 
   hast-util-to-text@4.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/unist': 3.0.0
       hast-util-is-element: 3.0.0
       unist-util-find-after: 5.0.0
 
   hast-util-whitespace@3.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
 
   hastscript@8.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       comma-separated-tokens: 2.0.2
       hast-util-parse-selector: 4.0.0
       property-information: 6.1.1
@@ -3357,7 +3317,7 @@ snapshots:
 
   mdast-util-math@3.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/mdast': 4.0.1
       devlop: 1.1.0
       longest-streak: 3.0.1
@@ -3370,7 +3330,7 @@ snapshots:
   mdast-util-mdx-expression@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.0
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/mdast': 4.0.1
       devlop: 1.1.0
       mdast-util-from-markdown: 2.0.2
@@ -3381,7 +3341,7 @@ snapshots:
   mdast-util-mdx-jsx@3.1.3:
     dependencies:
       '@types/estree-jsx': 1.0.0
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/mdast': 4.0.1
       '@types/unist': 3.0.0
       ccount: 2.0.1
@@ -3408,7 +3368,7 @@ snapshots:
   mdast-util-mdxjs-esm@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.0
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/mdast': 4.0.1
       devlop: 1.1.0
       mdast-util-from-markdown: 2.0.2
@@ -3423,7 +3383,7 @@ snapshots:
 
   mdast-util-to-hast@13.2.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/mdast': 4.0.1
       '@ungap/structured-clone': 1.2.0
       devlop: 1.1.0
@@ -3442,7 +3402,7 @@ snapshots:
       mdast-util-to-string: 4.0.0
       micromark-util-decode-string: 2.0.0
       unist-util-visit: 5.0.0
-      zwitch: 2.0.2
+      zwitch: 2.0.4
 
   mdast-util-to-string@4.0.0:
     dependencies:
@@ -3613,8 +3573,8 @@ snapshots:
 
   micromark-extension-mdxjs@3.0.0:
     dependencies:
-      acorn: 8.7.0
-      acorn-jsx: 5.3.2(acorn@8.7.0)
+      acorn: 8.13.0
+      acorn-jsx: 5.3.2(acorn@8.13.0)
       micromark-extension-mdx-expression: 3.0.0
       micromark-extension-mdx-jsx: 3.0.1
       micromark-extension-mdx-md: 2.0.0
@@ -3740,7 +3700,7 @@ snapshots:
   micromark@4.0.0:
     dependencies:
       '@types/debug': 4.1.7
-      debug: 4.3.3
+      debug: 4.3.7
       decode-named-character-reference: 1.0.1
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.0
@@ -3776,8 +3736,6 @@ snapshots:
       pathe: 1.1.2
       pkg-types: 1.2.1
       ufo: 1.5.4
-
-  ms@2.1.2: {}
 
   ms@2.1.3: {}
 
@@ -3834,7 +3792,7 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nextra-theme-docs@2.13.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
+  nextra-theme-docs@2.13.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(nextra@3.1.2(@types/react@17.0.38)(acorn@8.13.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
       '@headlessui/react': 1.7.13(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       '@popperjs/core': 2.11.6
@@ -3848,17 +3806,17 @@ snapshots:
       next: 13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       next-seo: 6.0.0(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       next-themes: 0.2.1(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
-      nextra: 3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      nextra: 3.1.2(@types/react@17.0.38)(acorn@8.13.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       react: 18.3.1
       react-dom: 18.2.0(react@18.3.1)
       scroll-into-view-if-needed: 3.0.3
       zod: 3.22.3
 
-  nextra@3.1.1(@types/react@17.0.38)(acorn@8.7.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3):
+  nextra@3.1.2(@types/react@17.0.38)(acorn@8.13.0)(next@13.5.4(react-dom@18.2.0(react@18.3.1))(react@18.3.1))(react-dom@18.2.0(react@18.3.1))(react@18.3.1)(typescript@5.6.3):
     dependencies:
       '@formatjs/intl-localematcher': 0.5.6
       '@headlessui/react': 2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
-      '@mdx-js/mdx': 3.1.0(acorn@8.7.0)
+      '@mdx-js/mdx': 3.1.0(acorn@8.13.0)
       '@mdx-js/react': 3.1.0(@types/react@17.0.38)(react@18.3.1)
       '@napi-rs/simple-git': 0.1.9
       '@shikijs/twoslash': 1.22.1(typescript@5.6.3)
@@ -4021,7 +3979,7 @@ snapshots:
   postcss-load-config@4.0.1(postcss@8.4.31):
     dependencies:
       lilconfig: 2.1.0
-      yaml: 2.3.1
+      yaml: 2.6.0
     optionalDependencies:
       postcss: 8.4.31
 
@@ -4081,13 +4039,13 @@ snapshots:
       estree-util-build-jsx: 3.0.1
       vfile: 6.0.1
 
-  recma-jsx@1.0.0(acorn@8.7.0):
+  recma-jsx@1.0.0(acorn@8.13.0):
     dependencies:
-      acorn-jsx: 5.3.2(acorn@8.7.0)
+      acorn-jsx: 5.3.2(acorn@8.13.0)
       estree-util-to-js: 2.0.0
       recma-parse: 1.0.0
       recma-stringify: 1.0.0
-      unified: 11.0.3
+      unified: 11.0.5
     transitivePeerDependencies:
       - acorn
 
@@ -4095,14 +4053,14 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.6
       esast-util-from-js: 2.0.1
-      unified: 11.0.3
+      unified: 11.0.5
       vfile: 6.0.1
 
   recma-stringify@1.0.0:
     dependencies:
       '@types/estree': 1.0.6
       estree-util-to-js: 2.0.0
-      unified: 11.0.3
+      unified: 11.0.5
       vfile: 6.0.1
 
   regenerator-runtime@0.13.9: {}
@@ -4111,7 +4069,7 @@ snapshots:
 
   rehype-katex@7.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/katex': 0.16.3
       hast-util-from-html-isomorphic: 2.0.0
       hast-util-to-text: 4.0.0
@@ -4137,14 +4095,14 @@ snapshots:
 
   rehype-raw@7.0.0:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       hast-util-raw: 9.0.1
       vfile: 6.0.1
 
   rehype-recma@1.0.0:
     dependencies:
       '@types/estree': 1.0.6
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       hast-util-to-estree: 3.1.0
     transitivePeerDependencies:
       - supports-color
@@ -4154,7 +4112,7 @@ snapshots:
       '@types/mdast': 4.0.1
       mdast-util-frontmatter: 2.0.1
       micromark-extension-frontmatter: 2.0.0
-      unified: 11.0.3
+      unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
@@ -4165,7 +4123,7 @@ snapshots:
       micromark-extension-gfm: 3.0.0
       remark-parse: 11.0.0
       remark-stringify: 11.0.0
-      unified: 11.0.3
+      unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
@@ -4174,7 +4132,7 @@ snapshots:
       '@types/mdast': 4.0.1
       mdast-util-math: 3.0.0
       micromark-extension-math: 3.0.0
-      unified: 11.0.3
+      unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
@@ -4190,7 +4148,7 @@ snapshots:
       '@types/mdast': 4.0.1
       mdast-util-from-markdown: 2.0.2
       micromark-util-types: 2.0.0
-      unified: 11.0.3
+      unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
@@ -4203,10 +4161,10 @@ snapshots:
 
   remark-rehype@11.1.1:
     dependencies:
-      '@types/hast': 3.0.1
+      '@types/hast': 3.0.4
       '@types/mdast': 4.0.1
       mdast-util-to-hast: 13.2.0
-      unified: 11.0.3
+      unified: 11.0.5
       vfile: 6.0.1
 
   remark-smartypants@3.0.2:
@@ -4220,7 +4178,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.1
       mdast-util-to-markdown: 2.1.0
-      unified: 11.0.3
+      unified: 11.0.5
 
   remove-accents@0.4.2: {}
 
@@ -4438,16 +4396,6 @@ snapshots:
 
   ufo@1.5.4: {}
 
-  unified@11.0.3:
-    dependencies:
-      '@types/unist': 3.0.0
-      bail: 2.0.2
-      devlop: 1.1.0
-      extend: 3.0.2
-      is-plain-obj: 4.0.0
-      trough: 2.0.2
-      vfile: 6.0.1
-
   unified@11.0.5:
     dependencies:
       '@types/unist': 3.0.0
@@ -4585,8 +4533,6 @@ snapshots:
 
   yallist@2.1.2: {}
 
-  yaml@2.3.1: {}
-
   yaml@2.6.0: {}
 
   yocto-queue@1.1.1: {}
@@ -4596,7 +4542,5 @@ snapshots:
       zod: 3.22.3
 
   zod@3.22.3: {}
-
-  zwitch@2.0.2: {}
 
   zwitch@2.0.4: {}
