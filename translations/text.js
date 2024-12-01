@@ -1,6 +1,6 @@
 /**
  * @typedef {"en-US"} DefaultLocale
- * @typedef {DefaultLocale | "zh-CN" | "es-ES" | "pt-BR" | "ja" | "ko" | "ru"} Locale
+ * @typedef {DefaultLocale | "zh-CN" | "es-ES" | "cat-ES" | "pt-BR" | "ja" | "ko" | "ru"} Locale
  */
 
 /** @type {Readonly<Record<Locale, string>>} */
@@ -42,6 +42,7 @@ export const headDescriptionMap = {
 export const feedbackLinkMap = {
   "en-US": "Question? Give us feedback →",
   "es-ES": "¿Dudas? Danos tu feedback →",
+  "cat-ES": "Preguntes? Donans el teu feedback →",
   "pt-BR": "Dúvidas? Nos dê feedback →",
   "zh-CN": "有疑问？给我们反馈 →",
   ko: "질문이 있으신가요? 피드백을 남겨주세요 →",
@@ -53,6 +54,7 @@ export const feedbackLinkMap = {
 export const editTextMap = {
   "en-US": "Edit this page on GitHub →",
   "es-ES": "Edite esta página en GitHub →",
+  "cat-ES": "Editeu aquesta pàgina en GitHub →",
   "pt-BR": "Edite essa página no GitHub →",
   "zh-CN": "在 GitHub 上编辑本页 →",
   ja: "Github で編集する →",
@@ -70,6 +72,7 @@ export const footerTextMap = {
 export const tableOfContentsTitleMap = {
   "en-US": "On This Page",
   "es-ES": "En esta página",
+  "cat-ES": "En aquesta pàgina",
   "pt-BR": "Nessa página",
   ru: "На этой странице",
   "eg-AR": "On This Page",
@@ -80,6 +83,7 @@ export const searchPlaceholderMap = {
   "en-US": "Search site...",
   "eg-AR": "Search site...",
   "es-ES": "Buscar documento...",
+  "cat-ES": "Cercar document...",
   "pt-BR": "Buscar documentação...",
   ko: "문서 검색...",
   ru: "Искать в документации...",
