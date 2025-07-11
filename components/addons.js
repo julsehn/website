@@ -1,5 +1,4 @@
 export function ChevronMenu({ title, openstate, children }) {
-
   return (
     <details
       open={openstate}
