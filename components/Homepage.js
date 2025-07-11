@@ -11,10 +11,10 @@ const Card = ({ title, description, href, icon: Icon }) => (
     className="block p-6 bg-dark-card border-2 border-ntts-blue-light rounded-lg transition-all duration-200 ease-in-out hover:border-ntts-blue-hover hover:scale-[1.02] hover:shadow-lg hover:shadow-ntts-blue/10"
   >
     <div className="flex items-center mb-2">
-      {Icon && <div className="text-dark-text">{<Icon />}</div>}
-      <h3 className="ml-3 text-xl font-bold text-dark-text">{title}</h3>
+      {Icon && <div className="text-[#253540]">{<Icon />}</div>}
+      <h3 className="ml-3 text-xl font-bold text-[#253540]">{title}</h3>
     </div>
-    <p className="text-dark-text-secondary">{description}</p>
+    <p className="text-[#253540]">{description}</p>
   </Link>
 );
 
