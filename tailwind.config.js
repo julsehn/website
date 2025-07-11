@@ -11,8 +11,8 @@ module.exports = {
         'ntts-blue-hover': '#63b3ed',
         'dark-bg': '#0D1117',
         'dark-card': '#90cdf4',
-        'dark-text': '#1a202c',
-        'dark-text-secondary': '#374151',
+        'dark-text': '#C9D1D9',
+        'dark-text-secondary': '#8B949E',
         'dark-border': '#30363D',
       },
     }
