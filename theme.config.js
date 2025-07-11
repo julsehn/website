@@ -1,8 +1,7 @@
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
-import Logo from "./components/logo";
-import Ntts from "./components/ntts";
-import PopupManager from './components/PopupManager'; 
+import Logo from "./components/icons/logo";
+import Ntts from "./components/icons/ntts";
 import useLocalesMap from "./components/use-locales-map"; 
 import {
   editTextMap,
@@ -27,8 +26,8 @@ const themeConfig = {
       titleTemplate: "%s – NTTS",
     };
   },
-  primaryHue: 224,
-  primarySaturation: 86,
+  primaryHue: 200,
+  primarySaturation: 67.3,
   toc: {
     float: true,
     backToTop: true,
@@ -42,6 +41,10 @@ const themeConfig = {
   },
   feedback: {
     content: () => useLocalesMap(feedbackLinkMap),
+  },
+  navigation: false,
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
   },
   logo: () => {
     const title = useLocalesMap(titleMap);
@@ -109,16 +112,7 @@ const themeConfig = {
     );
   },
 
-  footer: {
-    text: (
-      <>
-        <PopupManager />
-        <span>
-          © {new Date().getFullYear()} No Text To Speech
-        </span>
-      </>
-    )
-  },
+  footer: "",
 
   gitTimestamp({ timestamp }) {
     const { locale } = useRouter();
