@@ -6,11 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'ntts-blue': '#58A6FF',       
-        'dark-bg': '#0D1117',         
-        'dark-card': '#161B22',       
-        'dark-text': '#C9D1D9',        
-        'dark-text-secondary': '#8B949E',
+        'ntts-blue': '#90cdf4',
+        'ntts-blue-light': '#b3e0ff',
+        'ntts-blue-hover': '#63b3ed',
+        'dark-bg': '#0D1117',
+        'dark-card': '#90cdf4',
+        'dark-text': '#1a202c',
+        'dark-text-secondary': '#374151',
         'dark-border': '#30363D',
       },
     }
