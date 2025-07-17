@@ -8,7 +8,7 @@ import ScamsIcon from './icons/scams';
 const Card = ({ title, description, href, icon: Icon }) => (
   <Link
     href={href}
-    className="block p-6 bg-dark-card border-2 border-ntts-blue-light rounded-lg transition-all duration-200 ease-in-out hover:border-ntts-blue-hover hover:scale-[1.02] hover:shadow-lg hover:shadow-ntts-blue/10"
+    className="flex flex-col justify-between p-6 bg-dark-card border-2 border-ntts-blue-light rounded-lg transition-all duration-200 ease-in-out hover:border-ntts-blue-hover hover:scale-[1.02] hover:shadow-lg hover:shadow-ntts-blue/10 h-32"
   >
     <div className="flex items-center mb-2">
       {Icon && <div className="text-[#253540]">{<Icon />}</div>}
@@ -37,7 +37,7 @@ export default function Homepage() {
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-ntts-blue mb-4">
           No Text To Speech
         </h1>
-        <p className="text-lg md:text-xl text-dark-text-secondary max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl font-bold text-dark-text-secondary max-w-2xl mx-auto">
           The official community hub. Find our rules, guides, and important information.
         </p>
       </div>
