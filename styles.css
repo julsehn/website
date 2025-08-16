@@ -1,3 +1,16 @@
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(8px);
+  opacity: 0.25;
+  pointer-events: none;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +21,13 @@
 
   background-image: radial-gradient(at 15% 15%, #58a6ff26, transparent 70%),
     radial-gradient(at 85% 95%, #161b221a, transparent 70%);
+}
+body {
+  background-image: url('/media/BlueBackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
 }
 
 :is(html[class~=dark] .dark\:nx-bg-dark) {
@@ -28,3 +48,4 @@
 [data-reach-skip-link]:focus {
   @apply not-sr-only fixed ml-6 top-0 bg-white text-lg px-6 py-2 mt-2 outline-none focus:ring z-50;
 }
+
