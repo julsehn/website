@@ -16,11 +16,11 @@ body::before {
 @tailwind utilities;
 
 .dark body {
-  background-color: #0D1117;
-  color: #C9D1D9;
-
-  background-image: radial-gradient(at 15% 15%, #58a6ff26, transparent 70%),
-    radial-gradient(at 85% 95%, #161b221a, transparent 70%);
+  background-image: url('/media/BlueBackground_dark_mode.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
 }
 body {
   background-image: url('/media/BlueBackground.png');
