@@ -23,7 +23,7 @@ body::before {
   opacity: 1;
 }
 body {
-  background-image: url('/media/BlueBackground.png');
+  background-image: url('/media/BlueBackground_base.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
