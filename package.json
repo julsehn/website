@@ -12,21 +12,42 @@
   "author": "NTTS",
   "license": "Apache-2.0",
   "dependencies": {
-    "focus-visible": "^5.2.0",
+    "focus-visible": "^5.2.1",
     "intersection-observer": "^0.12.2",
-    "next": "^13.5.4",
-    "next-plausible": "^3.12.2",
+    "next": "^15.5.21",
+    "next-plausible": "^4.0.0",
     "nextra": "^2.13.1",
     "nextra-theme-docs": "^2.13.1",
     "react": "^18.3.1",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.13.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.26",
+    "postcss": "^8.5.23",
     "tailwindcss": "^3.3.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@babel/runtime": "7.26.10",
+      "cross-spawn": "6.0.6",
+      "dompurify": "3.4.13",
+      "diff": "5.2.2",
+      "estree-util-value-to-estree": "3.3.3",
+      "gray-matter>js-yaml": "3.15.1",
+      "katex": "0.16.21",
+      "lodash-es": "4.18.0",
+      "mermaid": "10.9.8",
+      "nanoid": "3.3.18",
+      "nextra>next-mdx-remote": "6.0.0",
+      "next-mdx-remote>mdast-util-to-hast": "13.2.1",
+      "postcss": "8.5.26",
+      "sharp": "0.35.0",
+      "uuid": "11.1.1",
+      "yaml": "2.8.3",
+      "vfile-matter>js-yaml": "4.3.1"
+    }
   },
   "prettier": {
     "embeddedLanguageFormatting": "off",
